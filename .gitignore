@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Database backups and local env
+database/backups/*
+.env
+*.dump
+*.sql.gz
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
